@@ -47,5 +47,5 @@ public class TablaVentas {
         // Calcular total general
         double totalGeneral = ventas.stream().mapToDouble(Venta::getTotal).sum();
         System.out.println("\nTotal General: " + totalGeneral);
-    }
 }
+
